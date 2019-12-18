@@ -1,6 +1,7 @@
 --This arbiter grants 3 processors - A, B, and C access to SRAM for a maximum of 64 clock cycles
 --A has higher priority than B, and B has higher priority than C
 --FSM implemented with a MOD-64 counter
+--Three-process FSM separating Next-State, Current-State, and Output logic
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
